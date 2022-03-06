@@ -2,7 +2,7 @@
 
 # Conditon 1
 
-### `weight-height.csv` fayilni yuklab oling.
+### `weight-height.csv` fayli ```data/weight-height.csv``` da joylashgan.
 [path to download data](https://raw.githubusercontent.com/Naxalov/matplotlib/master/scatter/weight-height.csv)
 
  **Gender** - ustuni listga 0 va 1 ko'rinishda joylashtiring
