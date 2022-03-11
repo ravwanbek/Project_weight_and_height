@@ -12,6 +12,9 @@ def get_data(data):
         tuple: gender, weight and height
 
     """
+
+    
+
     old_gender=[]
     pound_weight=[]
     inch_height=[]
@@ -22,7 +25,7 @@ def get_data(data):
     # WRITE YOUR CODE HERE
 
     #-----------------------------Gender ------------------------------------------
-
+    
     coloumn=file_path.split('\n')
     for idx in range(len(coloumn)):
         coloumn2=coloumn[idx].split(',')
@@ -33,7 +36,7 @@ def get_data(data):
     for i in range(len(old_gender)):
         if old_gender[i]=='"Male"':
             gender.append(0)
-        else:
+        if old_gender[i]=='"Female"':
             gender.append(1)
     #-----------------------------Weight ------------------------------------------
 
@@ -59,9 +62,11 @@ def get_data(data):
         cm=float(inch_height[idx3])*2.54
         height.append(cm)
 
-
+    
     
     return gender,weight,height
 file_path=open('data/weight-height.csv').read()
-data=read_csv_data(file_path)
+data=read_csv_data('data/weight-height.csv')
 print(get_data(data))
+
+
