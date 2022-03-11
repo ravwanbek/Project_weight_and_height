@@ -56,7 +56,7 @@ def get_data(data):
     del inch_height[0]
     
     for idx3 in range(len(inch_height)):
-        cm=float(pound_weight[idx3])*2.54
+        cm=float(inch_height[idx3])*2.54
         height.append(cm)
 
 
