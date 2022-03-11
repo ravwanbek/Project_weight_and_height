@@ -12,8 +12,9 @@ def read_csv_data(file_path):
     result_data = []
 
     # WRITE YOUR CODE HERE
-    result_data=file_path.split('\n')
-
+    f=file_path.split('\n')
+    for j in f:
+        result_data.append(j)
     
     return result_data
 
