@@ -18,7 +18,7 @@ def read_csv_data(file_path):
     
     return result_data
 
-file_path=open('data\weight-height.csv').read()
+file_path=open('data/weight-height.csv').read()
 print(read_csv_data(file_path))
 
     
