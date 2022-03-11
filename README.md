@@ -14,6 +14,10 @@
 
 # Conditon 2
 
+- read_data
+- get_data
+- plot_data
+
 ### Scatter plot
 
 **-** **Weight** va **height** ma'lumotlarni **gender** orqali ajratib alohida listlarga joylashtiring.
