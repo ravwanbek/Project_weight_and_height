@@ -12,10 +12,10 @@ def read_csv_data(file_path):
     result_data = []
 
     # WRITE YOUR CODE HERE
-    result_data=file_path.split('\n')
+    fayl=open(file_path).read()
+    result_data=fayl.split('\n')
     
     return result_data
-file_path=open('data/weight-height.csv').read()
-print(read_csv_data(file_path))
+read_csv_data('data/weight-height.csv')
 
     
